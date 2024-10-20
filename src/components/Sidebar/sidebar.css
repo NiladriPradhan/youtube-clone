@@ -1,0 +1,77 @@
+.sidebar {
+    background: #ebe0e071;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+}
+
+.shortcut_links .MuiSvgIcon-root {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.side_link {
+    display: flex;
+    /* align-items: center; */
+    /* margin-bottom: 20px; */
+    width: fit-content;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.sidebar hr {
+    /* border: 0; */
+    height: 14px !important;
+    width: 85% !important;
+    color: black !important;
+}
+
+.subscribed_list {
+    font-size: 13px;
+    margin: 20px 0;
+    column-rule: #5a5a5a;
+}
+.subscribed_list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+.subscribed_list .side_link {
+    align-items: center !important;
+}
+
+.subscribed_list  img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* ==== for toggle sidebar ===== */
+.small-sidebar{
+    width: 5%;
+}
+.small-sidebar p{
+    display: none !important;
+}
+
+.small-sidebar h3{
+    display: none;
+}
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
+    color: black  !important;
+}
+
+.side_link.active .MuiSvgIcon-root{
+    border-bottom: 2px solid red !important;
+    padding-bottom: 2px;
+}
+
+.side_link.active p{
+    padding-bottom: 2px;
+}
